@@ -29,6 +29,8 @@ class Moldindconbank
 			transactions:[parse_transactions]
 		}	
 		puts result
+		#=> i dont know how, but it return Watir elements. Pls, help me...
+		# This is not finish task. I make "MARAFET" :)
 	end
 
 	def log_in
@@ -84,19 +86,6 @@ class Moldindconbank
 			browser.send_keys :escape
 		end
 	end
-
-	# def parse_data#(html)
-	# 	trans.css('.operation-details-body').css('.details-section')[0].css('.value')[0].text
-	# end
-
-	# def parse_description
-	# 	trans.css('.operation-details-header').text
-	# end
-
-	# def parse_amount
-	# 	trans.css(%w(.details-section amounts)).css('.value')[0].text
-	# end
-
 end
 
 
