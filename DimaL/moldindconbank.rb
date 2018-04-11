@@ -35,7 +35,7 @@ class Moldindconbank
 
 	def log_in
 		browser.text_field(class: "username").set("yconnicov")
-		browser.text_field(id: "password").set("12Luchita12")
+		browser.text_field(id: "password").set("*********")
 		browser.button(class: "wb-button").click
 	end
 
